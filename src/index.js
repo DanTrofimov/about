@@ -3,7 +3,7 @@ const C = document.querySelector("canvas"),
   W = (C.width = window.innerWidth),
   H = (C.height = window.innerHeight - 1);
 
-const str = "А+Б0В-Г1Д=Е2Ё Ж3З И4Й К5Л М6Н О7П Р8С Т9У Ф!Х Ц?Ч Ш.ЩЪ,Ы Ь:ЭЮ;Я",
+const str = "React Vue Next Nuxt SCSS SASS",
   matrix = str.split("");
   console.log(matrix)
 let font = 15,
@@ -11,7 +11,7 @@ let font = 15,
   arr = [];
 
 for (let i = 0; i < col; i++) arr[i] = 1;
-const currentSymbolIndex = 0;  
+let currentSymbolIndex = 0;  
 
 function draw() {
   $.fillStyle = "rgba(0,0,0,.05)";
@@ -19,10 +19,11 @@ function draw() {
   $.fillStyle = "#0f0";
   $.font = font + "px system-ui";
   for (let i = 0; i < arr.length; i++) {
-    let txt = matrix[currentSymbolIndex % matrix.length];
+    let txt = matrix[currentSymbolIndex < matrix.length ? currentSymbolIndex : currentSymbolIndex % matrix.length];
     $.fillText(txt, i * font, arr[i] * font);
     if (arr[i] * font > H && Math.random() > 0.975) arr[i] = 0;
     arr[i]++;
+    currentSymbolIndex++;
   }
 }
 
