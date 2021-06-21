@@ -5,7 +5,6 @@ const C = document.querySelector("canvas"),
 
 const str = "React Vue Next Nuxt SCSS SASS",
   matrix = str.split("");
-  console.log(matrix)
 let font = 15,
   col = W / font,
   arr = [];
@@ -27,6 +26,6 @@ function draw() {
   }
 }
 
-setInterval(draw, 123);
+setInterval(draw, 80);
 
 window.addEventListener("resize", () => location.reload());
