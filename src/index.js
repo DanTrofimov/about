@@ -29,3 +29,9 @@ function draw() {
 }
 
 setInterval(draw, interval);
+
+/*
+  1) add local fonts
+  2) add custom favicon
+  3) fill hh & linkedin profile
+*/
