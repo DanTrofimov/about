@@ -1,3 +1,9 @@
+:root {
+    --matrix-green: #38A335;
+    --matrix-green-light: #ceffcc;
+    --bg-color: #000;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,5 +13,70 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-color: #000;
+    background-color: var(--bg-color);
+    color: var(--matrix-green);
+    font-family: Consolas, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.content {
+    display: flex;
+}
+
+.info {
+    width: 550px;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer a {
+    color: var(--matrix-green);
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+footer a:hover {
+    color: var(--matrix-green);
+    text-decoration: underline;
+}
+
+footer a:visited {
+    color: var(--matrix-green-light);
+}
+
+@media (max-width: 1024px) {
+    body {
+        font-size: 25px;
+    }
+
+    canvas {
+        display: none;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .info {
+        width: 80%;
+        padding: 20px;
+    }
+
+    footer {
+        margin: 100px 0 0 0;
+        line-height: 40px
+    };
 }
