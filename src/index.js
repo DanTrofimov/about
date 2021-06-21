@@ -3,7 +3,7 @@ const C = document.querySelector("canvas"),
   W = (C.width = window.innerWidth),
   H = (C.height = window.innerHeight - 1);
 
-const str = "React Vue Next Nuxt SCSS SASS",
+const str = "React Vue Next Nuxt GraphQL ES6+",
   matrix = str.split("");
 let font = 15,
   col = W / font,
