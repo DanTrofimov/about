@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Consolas";
+    src:
+        local("Consolas"), 
+        url("/public/fonts/consola.ttf") format("ttf")
+}
+
 :root {
     --matrix-green: #38A335;
     --matrix-green-light: #67eb62;
