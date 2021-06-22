@@ -1,8 +1,6 @@
 @font-face {
     font-family: "Consolas";
-    src:
-        local("Consolas"), 
-        url("/public/fonts/consola.ttf") format("trutype");
+    src: url("/public/fonts/Consolas.ttf") format("ttf");
     font-weight: normal;
     font-style: normal;
 }
