@@ -2,7 +2,9 @@
     font-family: "Consolas";
     src:
         local("Consolas"), 
-        url("/public/fonts/consola.ttf") format("ttf")
+        url("/public/fonts/consola.ttf") format("trutype");
+    font-weight: normal;
+    font-style: normal;
 }
 
 :root {
