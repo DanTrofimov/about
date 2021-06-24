@@ -3,7 +3,6 @@
     "short_name": "profile",
     "description": "info about developer & contacts",
     "icons": [
-        { "src": "/public/icons/icon-192.png", "type": "image/png", "sizes": "192x192" },
         { "src": "/public/icons/icon-512.png", "type": "image/png", "sizes": "512x512" }
     ],
     "theme_color": "#38A335"
