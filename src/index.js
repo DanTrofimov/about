@@ -31,7 +31,5 @@ function draw() {
 setInterval(draw, interval)
 
 /*
-  1) https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs
-  2) add media tags into the head to imrove SEO
-  3) https://web.dev/preload-optional-fonts/?utm_source=lighthouse&utm_medium=devtools
+  1) https://education.github.com/pack/offers?sort=popularity&tag=Domains - host samples
 */
