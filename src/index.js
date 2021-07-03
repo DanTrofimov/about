@@ -34,6 +34,3 @@ function draw() {
 // };
 
 setInterval(draw, interval)
-/*
-  1) https://education.github.com/pack/offers?sort=popularity&tag=Domains - host samples
-*/
