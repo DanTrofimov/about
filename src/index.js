@@ -9,10 +9,10 @@ const fontSize = 15;
 let columns = width / fontSize;
 let arrayModel = [];
 
-const interval = 80;
-
 for (let i = 0; i < columns; i++) arrayModel[i] = 1;
 let currentSymbolIndex = 0;  
+
+let interval = 80;
 
 function draw() {
   ctx.fillStyle = "rgba(0, 0, 0,.05)";
@@ -28,8 +28,12 @@ function draw() {
   }
 }
 
-setInterval(draw, interval)
+// for instant draw
+// for (let j = 0; j < Math.round(height / fontSize); j++) {
+//   draw();
+// };
 
+setInterval(draw, interval)
 /*
   1) https://education.github.com/pack/offers?sort=popularity&tag=Domains - host samples
 */
