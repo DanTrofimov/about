@@ -34,21 +34,6 @@ body {
     margin-bottom: 30px;
 }
 
-.link {
-    color: #38A335;
-    text-decoration: none;
-    margin-right: 5px;
-}
-
-.link:hover {
-    color: #38A335;
-    text-decoration: underline;
-}
-
-.link:visited {
-    color: #67eb62;
-}
-
 .list-of-talks {
     margin-left: 30px;
 }
@@ -82,4 +67,15 @@ body {
 h1 {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #38A335;
+    border-radius: 5px;
 }

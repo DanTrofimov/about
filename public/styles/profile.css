@@ -43,21 +43,6 @@ main {
     flex-grow: 1;
 }
 
-.link {
-    color: #38A335;
-    text-decoration: none;
-    margin-right: 5px;
-}
-
-.link:hover {
-    color: #38A335;
-    text-decoration: underline;
-}
-
-.link:visited {
-    color: #67eb62;
-}
-
 @media (max-width: 1024px) {
     body {
         font-size: 25px;
