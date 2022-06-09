@@ -45,7 +45,7 @@ main {
 
 @media (max-width: 1024px) {
     body {
-        font-size: 25px;
+        font-size: 18px;
     }
 
     canvas {
