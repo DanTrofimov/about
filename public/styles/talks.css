@@ -27,11 +27,15 @@ body {
     padding: 10px 50px;
     display: flex;
     flex-direction: column;
-    margin-top: 25vh;
+    margin-top: 15vh;
 }
 
 .list-of-talks li {
     margin-bottom: 30px;
+}
+
+.list-of-talks li:last-child {
+    margin-bottom: 100px;
 }
 
 .list-of-talks {
