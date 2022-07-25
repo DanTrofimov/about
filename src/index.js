@@ -10,7 +10,7 @@ let columns = width / fontSize;
 let arrayModel = [];
 
 for (let i = 0; i < columns; i++) arrayModel[i] = 1;
-let currentSymbolIndex = 0;  
+let currentSymbolIndex = 0;
 
 let interval = 80;
 
@@ -20,9 +20,15 @@ function draw() {
   ctx.fillStyle = "#0f0";
   ctx.font = fontSize + "px system-ui";
   for (let i = 0; i < arrayModel.length; i++) {
-    let txt = matrixSymbols[currentSymbolIndex < matrixSymbols.length ? currentSymbolIndex : currentSymbolIndex % matrixSymbols.length];
+    let txt =
+      matrixSymbols[
+        currentSymbolIndex < matrixSymbols.length
+          ? currentSymbolIndex
+          : currentSymbolIndex % matrixSymbols.length
+      ];
     ctx.fillText(txt, i * fontSize, arrayModel[i] * fontSize);
-    if (arrayModel[i] * fontSize > height && Math.random() > 0.975) arrayModel[i] = 0;
+    if (arrayModel[i] * fontSize > height && Math.random() > 0.975)
+      arrayModel[i] = 0;
     arrayModel[i]++;
     currentSymbolIndex++;
   }
@@ -33,4 +39,4 @@ function draw() {
 //   draw();
 // };
 
-setInterval(draw, interval)
+setInterval(draw, interval);
