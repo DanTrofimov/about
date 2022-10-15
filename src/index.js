@@ -12,7 +12,7 @@ let arrayModel = [];
 for (let i = 0; i < columns; i++) arrayModel[i] = 1;
 let currentSymbolIndex = 0;
 
-let interval = 80;
+let interval = 45;
 
 function draw() {
   ctx.fillStyle = "rgba(0, 0, 0,.05)";
