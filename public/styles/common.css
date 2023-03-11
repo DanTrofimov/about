@@ -1,3 +1,7 @@
+:root {
+    --highlight-color: #83e67f;
+}
+
 .link {
     color: #38A335;
     text-decoration: none;
@@ -5,12 +9,16 @@
 }
 
 .link:hover {
-    color: #38A335;
+    color: var(--highlight-color);
     text-decoration: underline;
 }
 
 .link:visited {
-    color: #67eb62;
+    color: var(--highlight-color);
+}
+
+.highlighted {
+    color: var(--highlight-color);
 }
 
 ::-webkit-scrollbar {
