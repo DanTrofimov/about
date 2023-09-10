@@ -22,8 +22,34 @@ body {
     justify-content: center;
 }
 
+.talk {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.talk-prevew {
+    height: 150px;
+    border: 5px solid #38A335
+}
+
+.talk-prevew:hover {
+    border: 5px dashed #38A335
+}
+
+@media screen and (max-width: 770px) {
+    .talk-prevew{
+        display: none;
+    }
+
+    .talks {
+        width: 550px;
+    }
+}
+
 .talks {
-    width: 550px;
+    width: 750px;
     padding: 10px 50px;
     display: flex;
     flex-direction: column;
