@@ -7,7 +7,7 @@
         { "src": "../public/icons/icon-512.png", "type": "image/png", "sizes": "512x512" }
     ],
     "theme_color": "#38A335",
-    "start_url": "/",
+    "start_url": "/about/",
     "display": "minimal-ui",
     "background_color": "#000000"
 }
