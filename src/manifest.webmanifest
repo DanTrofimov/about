@@ -1,6 +1,6 @@
 {
-    "name": "Dan Trofimov resume",
-    "short_name": "Dan Trofimov resume",
+    "name": "Dan Trofimov",
+    "short_name": "Dan Trofimov",
     "description": "info about developer & contacts",
     "icons": [
         { "src": "../public/icons/icon-192.png", "type": "image/png", "sizes": "192x192" },
