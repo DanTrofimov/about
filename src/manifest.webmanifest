@@ -1,10 +1,13 @@
 {
-    "name": "Dan Troifmov",
-    "short_name": "profile",
+    "name": "Dan Trofimov resume",
+    "short_name": "Dan Trofimov resume",
     "description": "info about developer & contacts",
     "icons": [
         { "src": "../public/icons/icon-192.png", "type": "image/png", "sizes": "192x192" },
         { "src": "../public/icons/icon-512.png", "type": "image/png", "sizes": "512x512" }
     ],
-    "theme_color": "#38A335"
+    "theme_color": "#38A335",
+    "start_url": "/",
+    "display": "minimal-ui",
+    "background_color": "#000000"
 }
