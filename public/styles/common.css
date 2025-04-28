@@ -1,33 +1,33 @@
 :root {
-    --highlight-color: #83e67f;
+  --highlight-color: #83e67f;
 }
 
 .link {
-    color: #38A335;
-    text-decoration: none;
-    margin-right: 5px;
+  color: #38a335;
+  text-decoration: none;
+  margin-right: 5px;
 }
 
 .link:hover {
-    color: var(--highlight-color);
-    text-decoration: underline;
+  color: var(--highlight-color);
+  text-decoration: underline;
 }
 
 .link:visited {
-    color: var(--highlight-color);
+  color: var(--highlight-color);
 }
 
 .highlighted {
-    color: var(--highlight-color);
+  color: var(--highlight-color);
 }
 
 ::-webkit-scrollbar {
-    width: 8px;
-    background-color: #000;
-    border-radius: 5px;
+  width: 8px;
+  background-color: #000;
+  border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #38A335;
-    border-radius: 5px;
+  background: #38a335;
+  border-radius: 5px;
 }
